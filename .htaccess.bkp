@@ -1,0 +1,26 @@
+<Directory /var/www/virtual/tkramer/html/literaturelistPHP/>
+AllowOverride All
+Options +Includes
+</Directory>
+
+<VirtualHost 95.143.172.95:81>
+ServerName tkramer.caelum.uberspace.de
+ServerAlias *.tkramer.caelum.uberspace.de
+ServerAdmin support@uberspace.de
+SuexecUserGroup tkramer tkramer
+DocumentRoot /var/www/virtual/tkramer/html/literaturelistPHP/
+ScriptAlias /cgi-bin /var/www/virtual/tkramer/cgi-bin
+ScriptAlias /fcgi-bin /var/www/virtual/tkramer/fcgi-bin
+Include /etc/httpd/conf/dyncontent.conf
+
+RewriteEngine On
+
+# PHP expects a "HTTP_AUTHORIZATION" header to correctly provide PHP_AUTH_USER and PHP_AUTH_PW
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# If there is a host-specific pseudo-DocumentRoot, use it instead of the default one
+RewriteCond %{REQUEST_URI} !^/f?cgi-bin/
+RewriteCond /var/www/virtual/tkramer/%{HTTP_HOST} -d
+RewriteRule (.*) /var/www/virtual/tkramer/%{HTTP_HOST}/$1
+
+</VirtualHost>
