@@ -1,4 +1,3 @@
-Website Timo Kramer
----
+# Website Timo Kramer
 
-my personal website
+## my personal website
