@@ -181,6 +181,24 @@ body {
 }
 
 /** Selfmade CSS **/
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url('Ubuntu_300_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url('Ubuntu_400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url('Ubuntu_700_Bold.ttf') format('truetype');
+}
 .visually-hidden {
 	position: absolute !important;
 	border: 0 !important;
