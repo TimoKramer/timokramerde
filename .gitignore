@@ -1,4 +1,6 @@
-owncloud/
-analytics/
+cloud/
 .project
-
+backup/
+blog/
+rss/
+.htaccess
