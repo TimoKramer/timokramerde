@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/timokramer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://timokramer.de
+  * I am timokramer (https://keybase.io/timokramer) on keybase.
+  * I have a public key ASD2xI8bRkOquchUTszS5wg29DLTq5gYh9uRVBtLVOBPGQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f6c48f1b4643aab9c8544eccd2e70836f432d3ab981887db91541b4b54e04f190a",
+            "host": "keybase.io",
+            "kid": "0120f6c48f1b4643aab9c8544eccd2e70836f432d3ab981887db91541b4b54e04f190a",
+            "uid": "6927c711ca4e8a720a652b84c4687f19",
+            "username": "timokramer"
+        },
+        "service": {
+            "hostname": "timokramer.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491209785,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491209313,
+        "hash": "fa1c7b93c9387c260cbf4997da54775371074f3e5546b652fe74fff9ae94875d5def051c88b0c8bfedae6a283a06abc26d67f94bd9e2e718e4ce2bff5da36157",
+        "seqno": 995605
+    },
+    "prev": "597193d5850563dd72b4f3240e8cf3a5bc224455f02ef639e0dc55917d10931c",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9sSPG0ZDqrnIVE7M0ucINvQy06uYGIfbkVQbS1TgTxkKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjZjNDhmMWI0NjQzYWFiOWM4NTQ0ZWNjZDJlNzA4MzZmNDMyZDNhYjk4MTg4N2RiOTE1NDFiNGI1NGUwNGYxOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjZjNDhmMWI0NjQzYWFiOWM4NTQ0ZWNjZDJlNzA4MzZmNDMyZDNhYjk4MTg4N2RiOTE1NDFiNGI1NGUwNGYxOTBhIiwidWlkIjoiNjkyN2M3MTFjYTRlOGE3MjBhNjUyYjg0YzQ2ODdmMTkiLCJ1c2VybmFtZSI6InRpbW9rcmFtZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6InRpbW9rcmFtZXIuZGUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMCJ9LCJjdGltZSI6MTQ5MTIwOTc4NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkxMjA5MzEzLCJoYXNoIjoiZmExYzdiOTNjOTM4N2MyNjBjYmY0OTk3ZGE1NDc3NTM3MTA3NGYzZTU1NDZiNjUyZmU3NGZmZjlhZTk0ODc1ZDVkZWYwNTFjODhiMGM4YmZlZGFlNmEyODNhMDZhYmMyNmQ2N2Y5NGJkOWUyZTcxOGU0Y2UyYmZmNWRhMzYxNTciLCJzZXFubyI6OTk1NjA1fSwicHJldiI6IjU5NzE5M2Q1ODUwNTYzZGQ3MmI0ZjMyNDBlOGNmM2E1YmMyMjQ0NTVmMDJlZjYzOWUwZGM1NTkxN2QxMDkzMWMiLCJzZXFubyI6NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBJRc8F95n4Csdo1lZcnD0sy80oidfiRVJQN+UItauSxmxUhT9Sr3xAgPl8R8keB2Qt+W8IgOSvLLvgEtNiwJULqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgTTifEZfrQSCDEecxG2iNCWJsKDhg1NFFcnEwLCGfb+WjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/timokramer
+
+==================================================================
+
