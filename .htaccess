@@ -1,12 +1,4 @@
-DirectoryIndex index.html
-Order Allow,Deny
-Deny from all
-<FilesMatch "\.(asc|html)$">
-  Order Deny,Allow
-  Allow from all
-</FilesMatch>
-Options -Indexes
-RewriteEngine On
+RewriteEngine on
 RewriteCond %{HTTPS} !=on
 RewriteCond %{ENV:HTTPS} !=on
 RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
