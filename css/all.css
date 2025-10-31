@@ -1,6 +1,6 @@
 /*
 * www.KNACSS.com V2.6k @author: Raphael Goetter, Alsacreations
-* Licence CC-BY http://creativecommons.org/licenses/by/3.0/de/ 
+* Licence CC-BY http://creativecommons.org/licenses/by/3.0/de/
 */
 
 html {
@@ -113,14 +113,14 @@ p {
   font-size: 1.2em
 }
 a {
-  color: orange;
+  color: #5881D8;
   text-decoration: none
 }
 a:hover {
   border-bottom: 1px solid orange
 }
 a:visited {
-  color: darkorange
+  color: #8FB5FE
 }
 body,
 html {
@@ -220,6 +220,42 @@ li {
 	list-style-type: none;
 	padding-right: 20px;
 }
-.impressum {
-  font-size: 0.8em;
+.w60 {
+  width: 60%;
+}
+.pa2 {
+  padding: 20px;
+}
+.pa3 {
+  padding: 30px;
+}
+.content-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  text-align: left;
+}
+.services {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+.services h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service-item {
+  margin-bottom: 25px;
+  padding: 15px;
+}
+.service-item h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+.service-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #666;
 }
