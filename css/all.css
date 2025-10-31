@@ -7,7 +7,7 @@ html {
   font-size: 62.5%
 }
 body {
-  overflow: hidden;
+  overflow: auto;
   background-color: #FFF;
   color: #333;
   font-size: 1.4em;
@@ -113,14 +113,14 @@ p {
   font-size: 1.2em
 }
 a {
-  color: #5881D8;
+  color: #333;
   text-decoration: none
 }
 a:hover {
-  border-bottom: 1px solid orange
+  border-bottom: 1px solid #666
 }
 a:visited {
-  color: #8FB5FE
+  color: #666
 }
 body,
 html {
@@ -128,7 +128,6 @@ html {
   height: 100%
 }
 body {
-  /*font-family: 'Open Sans', sans-serif*/
   font-family: 'Ubuntu', sans-serif
 }
 .main {
@@ -257,5 +256,22 @@ li {
 .service-item p {
   margin: 0;
   line-height: 1.6;
+  color: #666;
+}
+.quote {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  font-style: italic;
+}
+.quote p {
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+.quote cite {
+  font-size: 0.9em;
+  font-style: normal;
   color: #666;
 }
